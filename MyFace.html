@@ -25,13 +25,39 @@
 		}
 
 		#noti {
-			margin: 20px;
 			background-color: white;
 			border: 5px solid grey;
 			color: black;
 			float: right;
 			font-size: 25px;
-			height: 700px;
+			height: 500px;
+			clear: right;
+		}
+
+		#noti_head {
+			float: right;
+			font-size: 50px;
+			margin: 19px;
+			font-family: papyrus;
+		}
+
+		p {
+			margin: 0px;
+			background-color: white;
+		}
+
+		#dm_link {
+			color: blue;
+			text-decoration: underline;
+		}
+
+		#chase {
+			font-size: 18px;
+			color: pink;
+		}
+
+		.notifications {
+			font-size: 25px;
 		}
 
 	</style>
@@ -39,6 +65,35 @@
 <body>
 
 	<h1>Welcome to <div>MyFace!</div></h1>
-	<div id="noti">Cade liked your photo!</div>
+	<h2 id="noti_head">Notifications</h2>
+	<div id="noti">
+
+		<p class="notifications">Cade liked your photo!</p> 
+			<hr> 
+		<p class="notifications">Jarret did not like your photo!</p> 
+			<hr> 
+		<p class="notifications">Addison sent you a DM!</p>
+		<p id="dm_link">Check it out</p>
+			<hr>
+		<p class="notifications">Chase left a comment!</p>
+		<p id="chase">"haha bro ur so cool. nice pic big boi"</p>
+	
+	</div>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

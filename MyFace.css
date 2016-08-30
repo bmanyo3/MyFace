@@ -1,0 +1,101 @@
+		
+		#MyFace {
+			background-color: #002db3;
+			font-family: "Gill Sans";
+			margin: 0 auto;
+			text-align: center;
+			width: 300px;
+			color: white;
+			font-size: 60px;
+		}
+
+		h1 {
+			margin: 0 auto;
+			text-align: center;
+			font-size: 50px;
+		}
+
+		body {
+			background-color: #99e6ff;
+		}
+
+		#noti {
+			background-color: white;
+			border: 5px solid grey;
+			color: black;
+			float: right;
+			font-size: 25px;
+			height: 500px;
+			width: 320px;
+			clear: right;
+			text-align: center;
+		}
+
+		#noti_head {
+			float: right;
+			font-size: 50px;
+			margin: 19px;
+			font-family: papyrus;
+		}
+
+		p {
+			margin: 0px;
+			background-color: white;
+		}
+
+		#dm_link {
+			color: blue;
+			text-decoration: underline;
+		}
+
+		#chase {
+			font-size: 18px;
+			color: pink;
+		}
+
+		.notifications {
+			font-size: 25px;
+			margin: 5px;
+		}
+		
+		#users_head {
+			float: left;
+			font-size: 50px;
+			margin: 19px;
+			font-family: papyrus;
+		}
+
+		#users {
+			background-color: white;
+			border: 5px solid grey;
+			color: black;
+			float: left;
+			font-size: 25px;
+			height: 500px;
+			width: 320px;
+			clear: left;
+		}
+
+		.profile_pics {
+			width: 70px;
+			height: 70px;
+			margin: 10px;
+			margin-bottom: 0px;
+			margin-left: 55px;
+			margin-top: 17px;
+		}
+
+		.user_name {
+			display: inline-block;
+			top: -25px;
+			position: relative;
+		}
+
+
+
+
+
+
+
+
+

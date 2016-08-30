@@ -1,71 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title>Welcome to MyFace!</title>
-	<style type="text/css">
 
-		div {
-			background-color: #002db3;
-			font-family: "Gill Sans";
-			margin: 0 auto;
-			text-align: center;
-			width: 300px;
-			color: white;
-			font-size: 60px;
-		}
+	<link rel="stylesheet" type="text/css" href="MyFace.css">
 
-		h1 {
-			margin: 0 auto;
-			text-align: center;
-			font-size: 50px;
-		}
-
-		* {
-			background-color: #99e6ff;
-		}
-
-		#noti {
-			background-color: white;
-			border: 5px solid grey;
-			color: black;
-			float: right;
-			font-size: 25px;
-			height: 500px;
-			clear: right;
-		}
-
-		#noti_head {
-			float: right;
-			font-size: 50px;
-			margin: 19px;
-			font-family: papyrus;
-		}
-
-		p {
-			margin: 0px;
-			background-color: white;
-		}
-
-		#dm_link {
-			color: blue;
-			text-decoration: underline;
-		}
-
-		#chase {
-			font-size: 18px;
-			color: pink;
-		}
-
-		.notifications {
-			font-size: 25px;
-		}
-
-	</style>
-	</head>
+</head>
 <body>
 
-	<h1>Welcome to <div>MyFace!</div></h1>
+	<h1>Welcome to <div id="MyFace">MyFace!</div></h1>
+
 	<h2 id="noti_head">Notifications</h2>
+
+	<h2 id="users_head">Online Users</h2>
+
 	<div id="noti">
 
 		<p class="notifications">Cade liked your photo!</p> 
@@ -78,6 +27,21 @@
 		<p class="notifications">Chase left a comment!</p>
 		<p id="chase">"haha bro ur so cool. nice pic big boi"</p>
 	
+	</div>
+	
+	<div id="users">
+		 
+		<div>
+			<img src="https://lh3.googleusercontent.com/-avrgrRGa85g/AAAAAAAAAAI/AAAAAAAAADA/rt8CHh80ZW4/s120-c/photo.jpg" class="profile_pics">
+			<p class="user_name">Cade Blare</p>
+		</div>
+			<hr>
+		<div>
+			<img src="https://i.ytimg.com/vi/nytzHVEHLLs/hqdefault.jpg" class="profile_pics">
+			<p class="user_name">Aaron Nagenol</p>
+		</div>
+			<hr>
+
 	</div>
 
 </body>

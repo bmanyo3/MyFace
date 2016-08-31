@@ -18,6 +18,34 @@
 		body {
 			background-color: #99e6ff;
 		}
+		
+		p {
+			margin: 0px;
+			background-color: white;
+		}
+
+		#noti_head {
+			float: right;
+			font-size: 50px;
+			margin: 19px;
+			font-family: papyrus;
+		}
+		
+		#users_head {
+			float: left;
+			font-size: 50px;
+			margin: 19px;
+			font-family: papyrus;
+		}
+
+		#feed_head {
+			float: left;
+			font-size: 50px;
+			margin: 0 auto;
+			font-family: papyrus;
+			margin-left: 225px;
+			margin-top: 20px; 
+		}
 
 		#noti {
 			background-color: white;
@@ -31,39 +59,20 @@
 			text-align: center;
 		}
 
-		#noti_head {
-			float: right;
-			font-size: 50px;
-			margin: 19px;
-			font-family: papyrus;
-		}
+			#dm_link {
+				color: blue;
+				text-decoration: underline;
+			}
 
-		p {
-			margin: 0px;
-			background-color: white;
-		}
+			#chase {
+				font-size: 18px;
+				color: pink;
+			}
 
-		#dm_link {
-			color: blue;
-			text-decoration: underline;
-		}
-
-		#chase {
-			font-size: 18px;
-			color: pink;
-		}
-
-		.notifications {
-			font-size: 25px;
-			margin: 5px;
-		}
-		
-		#users_head {
-			float: left;
-			font-size: 50px;
-			margin: 19px;
-			font-family: papyrus;
-		}
+			.notifications {
+				font-size: 25px;
+				margin: 5px;
+			}
 
 		#users {
 			background-color: white;
@@ -76,20 +85,51 @@
 			clear: left;
 		}
 
-		.profile_pics {
-			width: 70px;
-			height: 70px;
-			margin: 10px;
-			margin-bottom: 0px;
-			margin-left: 55px;
-			margin-top: 17px;
+			.profile_pics {
+				width: 70px;
+				height: 70px;
+				margin: 10px;
+				margin-bottom: 0px;
+				margin-left: 55px;
+				margin-top: 17px;
+			}
+	
+			.user_name {
+				display: inline-block;
+				top: -25px;
+				position: relative;
+			}
+
+		#feed {
+			background-color: white;
+			border: 5px solid grey;
+			color: black;
+			font-size: 25px;
+			height: 520px;
+			width: 450px;
+			margin: 0 auto;
+			margin-top: 100px;
 		}
 
-		.user_name {
-			display: inline-block;
-			top: -25px;
-			position: relative;
-		}
+			.posts_head {
+				font-weight: bold;
+				font-size: 40px;
+			}
+
+			.posts {
+				font-size: 30px;
+			}
+			
+			span {
+				color: #33ccff;
+				font-size: 30px;
+			}
+
+			#meme {
+				width: 130px;
+				height: 130px;
+				float: right;
+			}
 
 
 

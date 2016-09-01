@@ -8,6 +8,10 @@
 
 </head>
 <body>
+	
+	<form>
+		<input type="button" value="lemons" id="lemons">
+	</form>
 
 	<h1>Welcome to <div id="MyFace">MyFace!</div></h1>
 
@@ -84,6 +88,16 @@
 		</div>
 
 	</div>
+
+	<script type="text/javascript">
+		
+		var lemons=document.getElementById("lemons");
+
+		lemons.addEventListener("click", function() {
+			alert("My Name is Cave Johnson and im with Aperture Science. I will throw combustable lemons at your house.")
+		});
+
+	</script>
 
 </body>
 </html>
